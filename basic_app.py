@@ -6,4 +6,5 @@ st.text("Welcome to your first interaction.")
 
 choice = st.selectbox("Your favourite food:",['Indian','Mexican','Chinese','Russian','Continental',
                                      'Korean','Thai'])
-st.write(f"You selected {choice}. Excellent Choice/n Have a Nice Day")
+st.write(f"You selected {choice}. Excellent Choice")
+st.write("Have a Nice Day")
